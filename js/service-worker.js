@@ -2,9 +2,10 @@ const CACHE_NAME = 'v1-cache';
 const CACHE_URLS = [
     '/',
     '/index.html',
-    '/styles.css',
-    '/script.js',
+    '/css.css',
+    '/js.js',
 ];
+
 
 // Install Event – Cache resources
 self.addEventListener('install', (event) => {
